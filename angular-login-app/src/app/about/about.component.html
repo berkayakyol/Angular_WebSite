@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yönlendirici Sayfa</title>
+  <style>
+    /* CSS Kodları */
+    
+    body {
+      
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+      
+    }
+
+    header {
+      
+      background-color: #000000;
+      color: rgb(227, 0, 0);
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      font-size: 40px;
+      padding: 20px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 40px;
+      margin: 0;
+      background-color: #ff0000;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ff0000da;
+      padding: 20px;
+      
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      background-color: black;
+      border-radius: 40px;
+      padding: 10px;
+      font-size: 20px;
+      text-decoration: none;
+      color: #ffffff;
+      
+    }
+
+    section {
+      padding: 20px;
+      
+    }
+
+    footer {
+      
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+      
+    }
+    .album{
+      
+      font-size: large;
+      text-align: center;
+      border-radius: 50px;
+    }
+  </style>
+</head>
+
+<header>
+  <h1>Yönlendirici Sayfa</h1>
+</header>
+<body >
+<nav>
+  <ul>
+    <li><a routerLink="">Giriş Ekranı</a></li>
+    <li><a routerLink="/galeri">Galeri</a></li>
+    <li><a routerLink="/hakkimda">Kimim Ben</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer>
+  °°°·.°·..·°¯°·._.· 𝕊𝕚𝕘𝕟𝕖𝕕 𝔹𝕪 𝕓𝕄𝕠𝕠ℕ ·._.·°¯°·.·° .·°°°
+</footer>
+</body>
+  <div class="album">
+    <img src="assets/galeri/linktreeqr.png" >
+  </div>
+
+  <h1>Kare Kodu Taratarak Sosyal Medya ve Diğer İletişim Seçeneklerine Ulaşabilirsiniz</h1>
+  <h2>
+    Bu Kare Kod Phyton ile Yapılmıştır...
+  </h2>
+  
+
+</html>
